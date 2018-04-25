@@ -1,5 +1,6 @@
 # kakao-sdk
 Kakao Cordova SDK Plugin Wrapper (카카오 계정 연동 플러그인 Wrapper)
+
 link: https://github.com/raccoondev85/cordova-plugin-kakao-sdk
 
 ## Development Environment and ETC
@@ -63,7 +64,7 @@ There is an optional parameter you can pass in to give users to choose various l
 
 |options|type|default|iOS|Android|description
 |---|---|---|---|---|---
-|`authTypes`|any[]|`AuthTypes.AuthTypeTalk`|yes|yes|Types of Authentication: "AuthTypes.AuthTypeTalk", "AuthTypes.AuthTypeStory", "AuthTypes.AuthTypeAccount", multiple values in this option will show the popup window to choose among the login methods unless one of those apps are not yet installed in the device(except AuthTypeAccount)
+|`authTypes`|any[]|[AuthTypes.AuthTypeTalk, AuthTypes.AuthTypeStory, AuthTypes.AuthTypeAccount]|yes|yes|Types of Authentication: "AuthTypes.AuthTypeTalk", "AuthTypes.AuthTypeStory", "AuthTypes.AuthTypeAccount", multiple values in this option will show the popup window to choose among the login methods unless one of those apps are not yet installed in the device(except AuthTypeAccount)
 
 
 Return values are "id", "accessToken", "email", "emailVerified", "nickname", "profileImagePath", "thumbnailImagePath", and etc(basically everthing that SDK gives but it might be slightly different  depending on OS, AuthType, or user's setting, for example "profileImagePath" or "thumbnailImagePath" not be given if user doesn't set up, or "email" might not exist if you did not set up as mandatory parameter in the kakao development console )
