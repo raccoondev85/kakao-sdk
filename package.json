@@ -1,0 +1,26 @@
+{
+  "name": "kakao-sdk",
+  "version": "1.0.0",
+  "description": "Kakao Account Login Wrapper",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "author": "raccoondev85",
+  "license": "MIT",
+  "peerDependencies": {
+    "@ionic-native/core": "^4.2.0",
+    "@angular/core": "*",
+    "rxjs": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raccoondev85/kakao-sdk.git"
+  },
+  "keywords": [
+    "ionic",
+    "cordova",
+    "kakao",
+    "kakao-sdk",
+    "kakaoaccount",
+    "kakaotalk"
+  ]
+}
