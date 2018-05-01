@@ -36,6 +36,36 @@ var KakaoCordovaSDK = (function (_super) {
     KakaoCordovaSDK.prototype.getAccessToken = function () {
         return;
     };
+    KakaoCordovaSDK.prototype.sendLinkFeed = function (feedTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkList = function (listTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkLocation = function (locationTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkCommerce = function (listTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkText = function (textTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkScrap = function (scrapTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.sendLinkCustom = function (customTemplate) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.uploadImage = function (uploadImageConfig) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.deleteUploadedImage = function (deleteImageConfig) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.postStory = function (postStoryConfig) {
+        return;
+    };
     KakaoCordovaSDK.decorators = [
         { type: Injectable },
     ];
@@ -65,9 +95,69 @@ var KakaoCordovaSDK = (function (_super) {
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", Promise)
     ], KakaoCordovaSDK.prototype, "getAccessToken", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkFeed", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkList", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkLocation", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkCommerce", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkText", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkScrap", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "sendLinkCustom", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "uploadImage", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "deleteUploadedImage", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "postStory", null);
     KakaoCordovaSDK = __decorate([
         Plugin({
-            pluginName: 'KakaoCordovaSDK',
+            pluginName: 'Kakao Cordova SDK Plugin',
             plugin: 'cordova-plugin-kakao-sdk',
             pluginRef: 'KakaoCordovaSDK',
             repo: 'https://github.com/raccoondev85/cordova-plugin-kakao-sdk',
@@ -83,4 +173,14 @@ export var AuthTypes;
     AuthTypes[AuthTypes["AuthTypeStory"] = 2] = "AuthTypeStory";
     AuthTypes[AuthTypes["AuthTypeAccount"] = 3] = "AuthTypeAccount";
 })(AuthTypes || (AuthTypes = {}));
+export var ScrapType;
+(function (ScrapType) {
+    ScrapType[ScrapType["ScrapTypeNone"] = 0] = "ScrapTypeNone";
+    ScrapType[ScrapType["ScrapTypeWebsite"] = 1] = "ScrapTypeWebsite";
+    ScrapType[ScrapType["ScrapTypeVideo"] = 2] = "ScrapTypeVideo";
+    ScrapType[ScrapType["ScrapTypeMusic"] = 3] = "ScrapTypeMusic";
+    ScrapType[ScrapType["ScrapTypeBook"] = 4] = "ScrapTypeBook";
+    ScrapType[ScrapType["ScrapTypeArticle"] = 5] = "ScrapTypeArticle";
+    ScrapType[ScrapType["ScrapTypeProfile"] = 6] = "ScrapTypeProfile";
+})(ScrapType || (ScrapType = {}));
 //# sourceMappingURL=index.js.map

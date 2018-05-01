@@ -3,6 +3,15 @@ Kakao Cordova SDK Plugin Wrapper (카카오 계정 연동 플러그인 Wrapper)
 
 link: https://github.com/raccoondev85/cordova-plugin-kakao-sdk
 
+Kakao Cordova SDK Plugin (카카오 코르도바 SDK 플러그인)
+
+Version is updated to 2.0.0
+
+All functions in KakaoLink SDK are included now.
+(see https://developers.kakao.com/docs/ios/kakaotalk-link)
+
+README will be updated soon for HOW-TO.
+
 ## Development Environment and ETC
 |type|version
 |---|---
@@ -38,6 +47,8 @@ import { KakaoCordovaSDK } from 'kakao-sdk';
   ]
 })
 ```
+<<<<<<< HEAD
+=======
 
 ## Methods
 ### `login()`
@@ -104,3 +115,4 @@ Get current access token.
 it returns the current access token.
 
 
+>>>>>>> a5251d4a3e02d4833e12376cde6a04fc3cf60dbf
