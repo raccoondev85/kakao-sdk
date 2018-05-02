@@ -36,6 +36,9 @@ var KakaoCordovaSDK = (function (_super) {
     KakaoCordovaSDK.prototype.getAccessToken = function () {
         return;
     };
+    KakaoCordovaSDK.prototype.requestMe = function () {
+        return;
+    };
     KakaoCordovaSDK.prototype.sendLinkFeed = function (feedTemplate) {
         return;
     };
@@ -95,6 +98,12 @@ var KakaoCordovaSDK = (function (_super) {
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", Promise)
     ], KakaoCordovaSDK.prototype, "getAccessToken", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", []),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "requestMe", null);
     __decorate([
         Cordova(),
         __metadata("design:type", Function),

@@ -4,6 +4,7 @@ export declare class KakaoCordovaSDK extends IonicNativePlugin {
     logout(): Promise<any>;
     unlinkApp(): Promise<any>;
     getAccessToken(): Promise<string>;
+    requestMe(): Promise<string>;
     sendLinkFeed(feedTemplate: KLFeedTemplate): Promise<string>;
     sendLinkList(listTemplate: KLListTemplate): Promise<string>;
     sendLinkLocation(locationTemplate: KLLocationTemplate): Promise<string>;
