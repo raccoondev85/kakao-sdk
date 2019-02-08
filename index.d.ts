@@ -1,10 +1,16 @@
 import { IonicNativePlugin } from '@ionic-native/core';
 export declare class KakaoCordovaSDK extends IonicNativePlugin {
-    login(loginOptions?: any): Promise<any>;
+    login(loginOptions: any): Promise<any>;
     logout(): Promise<any>;
     unlinkApp(): Promise<any>;
     getAccessToken(): Promise<string>;
     requestMe(): Promise<string>;
+    updateScopes(targetScopes: any): Promise<string>;
+    checkScopeStatus(targetScopes: any): Promise<string>;
+    requestSendMemo(builder: any): Promise<string>;
+    addPlusFriend(params: any): Promise<string>;
+    chatPlusFriend(params: any): Promise<string>;
+    chatPlusFriendUrl(params: any): Promise<string>;
     sendLinkFeed(feedTemplate: KLFeedTemplate): Promise<string>;
     sendLinkList(listTemplate: KLListTemplate): Promise<string>;
     sendLinkLocation(locationTemplate: KLLocationTemplate): Promise<string>;
@@ -47,8 +53,7 @@ export interface KLUploadImageConfig {
 }
 export interface KLCustomTemplate {
     templateId: string;
-    title?: string;
-    description?: string;
+    arguments?: any;
 }
 export interface KLScrapTemplate {
     url: string;

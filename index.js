@@ -39,6 +39,24 @@ var KakaoCordovaSDK = (function (_super) {
     KakaoCordovaSDK.prototype.requestMe = function () {
         return;
     };
+    KakaoCordovaSDK.prototype.updateScopes = function (targetScopes) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.checkScopeStatus = function (targetScopes) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.requestSendMemo = function (builder) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.addPlusFriend = function (params) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.chatPlusFriend = function (params) {
+        return;
+    };
+    KakaoCordovaSDK.prototype.chatPlusFriendUrl = function (params) {
+        return;
+    };
     KakaoCordovaSDK.prototype.sendLinkFeed = function (feedTemplate) {
         return;
     };
@@ -104,6 +122,42 @@ var KakaoCordovaSDK = (function (_super) {
         __metadata("design:paramtypes", []),
         __metadata("design:returntype", Promise)
     ], KakaoCordovaSDK.prototype, "requestMe", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "updateScopes", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "checkScopeStatus", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "requestSendMemo", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "addPlusFriend", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "chatPlusFriend", null);
+    __decorate([
+        Cordova(),
+        __metadata("design:type", Function),
+        __metadata("design:paramtypes", [Object]),
+        __metadata("design:returntype", Promise)
+    ], KakaoCordovaSDK.prototype, "chatPlusFriendUrl", null);
     __decorate([
         Cordova(),
         __metadata("design:type", Function),
