@@ -117,4 +117,3 @@ export var ScrapType;
     ScrapType[(ScrapType['ScrapTypeArticle'] = 5)] = 'ScrapTypeArticle';
     ScrapType[(ScrapType['ScrapTypeProfile'] = 6)] = 'ScrapTypeProfile';
 })(ScrapType || (ScrapType = {}));
-//# sourceMappingURL=index.js.map
