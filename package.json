@@ -1,13 +1,13 @@
 {
   "name": "kakao-sdk",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Kakao Account Login Wrapper",
   "module": "index.js",
   "typings": "index.d.ts",
   "author": "raccoondev85",
   "license": "MIT",
   "peerDependencies": {
-    "@ionic-native/core": "^4.2.0",
+    "@ionic-native/core": "^5.0.0",
     "@angular/core": "*",
     "rxjs": "^5.0.1"
   },
@@ -22,5 +22,8 @@
     "kakao-sdk",
     "kakaoaccount",
     "kakaotalk"
-  ]
+  ],
+  "dependencies": {
+    "google-closure-compiler": "^20190121.0.0"
+  }
 }
