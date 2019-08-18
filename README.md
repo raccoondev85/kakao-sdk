@@ -1,6 +1,9 @@
 # cordova-plugin-kakao-sdk
 Kakao Cordova SDK Plugin (카카오 코르도바 SDK 플러그인)
 
+Version is updated to 3.1.0 
+  - support ionic 4 (thanks for @Golapadeog)
+
 Version is updated to 3.0.0 
   - cordova-android compatibility between 6.4.0 and ^7.0.0 fixed
   - android SDK version changed from 1.12.0 to 1.16.0 (Google Play warning: Your app contains a Cross-App Scripting Vulnerability issue fixed)
